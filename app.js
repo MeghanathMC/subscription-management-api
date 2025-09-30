@@ -30,7 +30,6 @@ app.get("/",(req,res)=>{
 
 app.listen(PORT || 3001, async ()=>{
     console.log(`server running on PORT http://localhost:${PORT}`);
-
     await connectDB();
 })
 
